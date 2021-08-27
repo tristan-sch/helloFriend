@@ -2,8 +2,6 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-
 
 /* Main CSS */
 body {
@@ -12,11 +10,16 @@ body {
     font-weight: 400;
 }
 
+h1 {
+    font-family: "Cabin Sketch", sans-serif;
+}
+
+
 h2 {
 
-    font-size: 2em;
+    font-size: 2.5em;
     color: black;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Cabin Sketch", sans-serif;
     font-weight: 500;
     margin-bottom: 0;
     margin-top: 10%;
@@ -99,6 +102,7 @@ h1 {
     color: black;
     margin-bottom: 10%;
 }
+
 /* Background-container */
 
 .background-container {
@@ -204,14 +208,18 @@ ul.footer-links li a:hover {
     color: #54c7b1;
 }
 
-.adress {
+.adress a {
     color: black;
+}
+
+.adress a:hover {
+    color: #54c7b1;
 }
 
 /* Responsive */
 
 @media only screen and (min-width: 980px) {
-    
+
     .tristan {
         width: 15%;
         margin-top: 0;
